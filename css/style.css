@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+  font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  min-width: 800px;
+}
+/* .home {
+  margin-left: 0px;
+  margin-right: 30px;
+} */
+.home, .portfolio, .resume, .contact {
+  margin: 0px 30px;
+}
+.nav a:link, .nav a:visited {
+  color: grey;
+}
+.nav a:hover {
+  color: white;
+}
